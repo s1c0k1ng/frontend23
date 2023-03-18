@@ -1,0 +1,22 @@
+.flex{display: flex;}
+.grid{display: grid;}
+
+
+.relative{position: relative;}
+.absolute{position: absolute;}
+
+.container{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    @include md{max-width: $breakpoint-max-widht-md;}
+    @include lg{max-width: $breakpoint-max-widht-lg;}
+    @include xl{max-width: $breakpoint-max-widht-xl;}
+    @include xxl{max-width: $breakpoint-max-widht-xxl;}
+    @include xxl{max-width: $breakpoint-max-widht-xxl;}
+    @include wide{max-width: $breakpoint-max-widht-wide;}
+    @include ultrawide{max-width: $breakpoint-max-widht-ultrawide;}
+}

@@ -1,0 +1,17 @@
+#parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box{
+    
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+    color: purple;
+}

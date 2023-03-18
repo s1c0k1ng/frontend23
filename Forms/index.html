@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+<head>
+   <meta charset="UTF-8">
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://kit.fontawesome.com/41c8b474e2.js" crossorigin="anonymous"></script>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+   <title>FORMS</title>
+</head>
+<body>
+
+    <!-- HTTP METHODS -->
+<!-- 
+     POST      Skicka information/data          
+     GET       Hämta information/data
+     PUT       Ersätta informtaion/data
+     PATCH     Uppdatera information/data
+     DELETE    Ta bort information/data
+-->
+
+
+
+    
+<div class="container mt-4">
+
+    <form method="get">
+        <div>
+            <label for="firstName">Förnamn</label>
+            <input id="firstName" type="text" name="firstName" placeholder="Förnamn...">
+        
+        </div>
+        <div> 
+            <label for="firstName">Password</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <input type="radio" id="vd" name="role" value="VD"> <label for="vd">VD</label>
+            <input type="radio" id="konsult" name="role" value="Konsult"> <label for="konsult">Konsult</label>
+            <input type="radio" id="elev" name="role" value="Elev"><label for="elev">Elev</label>
+        </div>
+        <div> 
+            <button type="submit">SKICKA</button>
+        </div>
+        
+    </form>
+
+   </div>
+   
+</body>
+</html>

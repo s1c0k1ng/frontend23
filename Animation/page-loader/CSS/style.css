@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100px;
+    width: 100px;
+    border: 1px solid violet;
+    background-color: aquamarine;
+    transition: background-color 2s, color 2s, transform 2s;
+    border-radius: 50%;
+}
+
+.box:hover{
+    background-color: black;
+    color: white;
+    transform: rotate(1440deg);
+}
