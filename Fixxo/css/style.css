@@ -623,6 +623,15 @@ align-items: center;
     text-decoration: none;    
 }
 
+@media only screen and (max-width: 391px){
+  .flex-item img{
+    display: none;
+  }
+  .flex-item{
+    min-width: 100%;
+    height: 300px;  }
+}
+
 
 /* DEALS */
 .deals{
@@ -701,6 +710,8 @@ height: 552px;
     color: #ffffff;
     text-decoration: none;
 }
+
+
 
 
 /*NEW PRODUCTS*/
@@ -828,6 +839,76 @@ height: 552px;
 .cart:hover .button-icon {
     display: block;
 } 
+
+
+/* @media (min-width: 840px){
+    .deals .container-new-products{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .deals .col .cart .image-container .icon-container{
+        top: 10px;
+        right: 15px;
+    }
+
+    .deals .container-new-products .cart .image-container .icon-container .icons{
+        font-size: 16px;
+        height: 36px;
+        width: 36px;
+        margin-bottom: 8px;
+    }
+
+    .deals .container-new-products .cart .image-container .button-theme{
+        padding: 13px 50px;
+        font-size: 16px;
+    }
+
+    .deals .container-new-products .cart .product-category{
+        font-size: 13px;
+        font-weight: 500;
+        color: #616365;
+        margin-top: 10px;
+    }
+
+    .deal .container-new-products .cart .product-title{
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .deal .container-new-products .cart .product-rating{
+        color: #ff7373;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .deal .container-new-products .cart .price{
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 990px){
+    .deals{
+        margin-top: 10px;
+    }
+
+    .deal .container-new-products{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .deal .container-new-products .cart .image-container .icon-container{
+        opacity: 0%;
+        transition: all 0.15s;
+    }
+
+    .deal .container-new-products .icons:hover .image-container .icon-container{
+        opacity: 100%;
+    }
+
+} */
+
 
 /*DEALS 2*/
 
